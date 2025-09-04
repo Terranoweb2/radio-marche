@@ -1,0 +1,7 @@
+# Netlify redirects for SPA routing
+/*    /index.html   200
+
+# Security redirects
+/admin/*  https://netlify.com/  301!
+/.env     https://netlify.com/  301!
+/config/* https://netlify.com/  301!
