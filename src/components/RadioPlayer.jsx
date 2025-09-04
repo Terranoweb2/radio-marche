@@ -105,7 +105,7 @@ const RadioPlayer = () => {
     }
   };
 
-  const albumArtUrl = "https://images.unsplash.com/photo-1483354483454-4626ac95426a?q=80&w=1974&auto=format&fit=crop";
+  const albumArtUrl = "https://res.cloudinary.com/dxy0fiahv/image/upload/v1747408243/LOGO_Temps1_ahewfw.png";
 
   return (
     <div className="bg-player-dark text-white h-full flex flex-col p-4 space-y-6 overflow-y-auto">
@@ -127,11 +127,11 @@ const RadioPlayer = () => {
       <div className="flex-grow flex items-center justify-center">
         <div className="relative w-64 h-64">
           <div className={`absolute inset-0 rounded-full bg-gradient-to-br from-purple-600 to-blue-500 transition-all duration-500 ${isPlaying ? 'animate-pulse' : ''}`}>
-            <div className="absolute inset-1 bg-player-dark rounded-full p-1">
+            <div className="absolute inset-1 bg-player-dark rounded-full p-4">
               <img
                 src={albumArtUrl}
-                alt="Visuel de la station"
-                className="w-full h-full object-cover rounded-full shadow-2xl opacity-80"
+                alt="Logo Le Temps de Dieu"
+                className="w-full h-full object-contain rounded-full"
               />
             </div>
           </div>
@@ -186,7 +186,7 @@ const RadioPlayer = () => {
         <h3 className="text-lg font-semibold mb-2">À suivre</h3>
         <div className="flex items-center justify-between p-2 rounded-lg hover:bg-player-light transition-colors cursor-pointer">
           <div className="flex items-center space-x-4">
-            <img src="https://images.unsplash.com/photo-1516342243255-ac241284a14f?q=80&w=200&auto=format&fit=crop" className="w-12 h-12 rounded-md object-cover" alt="Prochaine émission" />
+            <img src="https://res.cloudinary.com/dxy0fiahv/image/upload/v1747408243/LOGO_Temps1_ahewfw.png" className="w-12 h-12 rounded-md object-contain bg-slate-700 p-1" alt="Logo Le Temps de Dieu" />
             <div>
               <p className="font-semibold">Prière du matin</p>
               <p className="text-sm text-player-text-secondary">Méditation</p>

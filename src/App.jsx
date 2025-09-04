@@ -3,7 +3,7 @@ import RadioPlayer from './components/RadioPlayer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4 font-sans">
       <div className="w-full max-w-sm mx-auto">
         {/* Phone-like container to match the design screenshot */}
         <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[10px] rounded-[2.5rem] h-[700px] w-[350px] shadow-xl">
