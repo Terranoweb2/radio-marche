@@ -15,9 +15,8 @@ function App() {
             <RadioPlayer />
           </div>
         </div>
-        <p className="text-center text-gray-500 text-sm mt-4">
-          Conçu par Dualite Alpha
-        </p>
+
+
       </div>
     </div>
   );
